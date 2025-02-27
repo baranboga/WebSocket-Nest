@@ -34,7 +34,7 @@ bootstrap();
 
 // ---------WebSocket İletişimi:
 // Client sunucu ile tek bir bağlantı kurar
-// Bu bağlantı açık kalır
+// Bu bağlantı açık kalır.
 // 3. İki taraf da istediği zaman veri gönderebilir (emit)
 // Bağlantı manuel olarak kapatılana kadar devam eder
 
@@ -43,4 +43,12 @@ bootstrap();
 // Real-time: Anlık veri alışverişi
 // İki yönlü iletişim: Server da client'a direkt mesaj gönderebilir
 // Daha az overhead: Her istek için yeni bağlantı kurulması gerekmez
+
+//Nerelerde kullanılır?
 // Bu yüzden chat, oyun, canlı veri akışı gibi real-time uygulamalar için WebSocket ideal bir çözümdür.
+// Örnek:
+// - Chat uygulamaları
+// - Oyunlar
+// - Canlı yayınlar
+// - Takip sistemleri
+// - Gerçek zamanlı haberleşme
